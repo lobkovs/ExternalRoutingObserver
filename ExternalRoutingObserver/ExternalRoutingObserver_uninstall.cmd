@@ -1,0 +1,2 @@
+ExternalRoutingObserver.exe uninstall
+pause

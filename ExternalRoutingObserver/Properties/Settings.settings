@@ -1,0 +1,63 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="ExternalRoutingObserver.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="timeBetweenChangeEventRaising" Type="System.Int32" Scope="Application">
+      <Value Profile="(Default)">100</Value>
+    </Setting>
+    <Setting Name="watchDir" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">C:\WORK\log</Value>
+    </Setting>
+    <Setting Name="watchFilter" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">*.log</Value>
+    </Setting>
+    <Setting Name="regexpMetrics" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">INFO\s{1,}start external routing db-load; INFO\s{1,}start caclulation cost on tdt; INFO\s{1,}start external routing db-store; INFO\s{1,}logger startup;</Value>
+    </Setting>
+    <Setting Name="zabbixLogTextMetricNameSuffix" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">logproc.ExtOpt_</Value>
+    </Setting>
+    <Setting Name="startGarbageCollectEverySeconds" Type="System.Int32" Scope="Application">
+      <Value Profile="(Default)">60</Value>
+    </Setting>
+    <Setting Name="tresholdProcessingLogMinutes" Type="System.Int32" Scope="Application">
+      <Value Profile="(Default)">2</Value>
+    </Setting>
+    <Setting Name="zabbixSenderPath" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">c:\zabbix_agents\3.2.0\bin\win64\zabbix_sender.exe </Value>
+    </Setting>
+    <Setting Name="zabbixServer" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">0001zabtevapp01</Value>
+    </Setting>
+    <Setting Name="zabbixNetworkNode" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">0001LCRWEB.PROCESSES</Value>
+    </Setting>
+    <Setting Name="regexpDetectRoutindId" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">INFO\s+will\s+set\s+trid=\d+</Value>
+    </Setting>
+    <Setting Name="regexpError" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">err(or)?</Value>
+    </Setting>
+    <Setting Name="regexpEnd" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">INFO proccessed</Value>
+    </Setting>
+    <Setting Name="regexpAllowHandleFileName" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">pys_\d{8}_\d{6}\.log</Value>
+    </Setting>
+    <Setting Name="zabbixEnableSend" Type="System.Boolean" Scope="Application">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="enableCheckRealTimeProcessed" Type="System.Boolean" Scope="Application">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="zabbixRealTimeMetricNameSuffix" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">logproc.ExtOptRealTime_</Value>
+    </Setting>
+    <Setting Name="zabbixCountMetric" Type="System.Int32" Scope="Application">
+      <Value Profile="(Default)">5</Value>
+    </Setting>
+    <Setting Name="queueStartEverySeconds" Type="System.Int32" Scope="Application">
+      <Value Profile="(Default)">10</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

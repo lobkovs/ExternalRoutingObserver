@@ -1,0 +1,2 @@
+ExternalRoutingObserver.exe install
+pause
